@@ -1,14 +1,32 @@
 # SISU - STUDY PLANNING APPLICATION
 
 ## Overview
-##### SISU is a study planning application that allows students to create and manage their personalized study plans. It provides an intuitive interface for adding, editing, and organizing courses, helping users keep track of their academic progress and plan for upcoming semesters effectively.
-##### The project was part of the university course Programming 3, and it was done in Spring 2023 in a 3 persons project. Even though I created this project during my first study year (note. Prog 3 course is a course for 2nd year students), it is the only relatively big project I can show and I think it demonstrates basic object oriented coding skills and basic group project skills. 
+##### SISU is a study planning application that allows students to plan and track their studies.
+##### The project was part of the university course Programming 3, and it was done in Spring 2023 in a 3 persons project. Even though I created this project during my first study year (note that Programming 3 is a course for 2nd year students), it is the only relatively big project that I can show and I think it demonstrates basic object oriented coding skills and group project work skills.
 
+## Which files did I write?
+From Sisu/src/main/java/fi/tuni/prog3/sisu I wrote:
+1. Assessment.java
+2. Course.java
+3. DegreeModule.java
+4. JsonParser.java
+5. StudyModule.java
+Additionally I wrote the unit tests for those files.
+   
 ## How to run?
-1. Clone the project 
-2. You need to install JDK and Maven.
- 
+1. Clone the project https://github.com/JonatanSchmidlechner/Sisu-application.git
+2. Install JDK and Maven.
+3. In terminal, move to "Sisu" folder (Sisu-application/Sisu/).
+4. Type the following command: mvn clean javafx:run
 
-Working directoryn polku on oltava Sisu-projekti\Sisu
-Ohjelma käynnistyy ajamalla Sisu\src\main\java\fi.tuni.prog3.sisu\Sisu tiedoston.
-Intellij IDEA:lla pitää edit configuration. Pitää kanssa ladata maven asioita
+
+More documentation of the project and how to use the application can be found in Sisu-application/Documentation/OHJ3-dokumentaatio.pdf. The mentioned documentation is only in Finish. Also the application is only in Finish. Below is short summary of the instructions in English:
+
+## How to use the application?
+1. Top-left is a register button (Rekisteröidy). Click it.
+2. Type first name (etunimi) and last name (sukunimi) and click the button below the forms (Rekisteröidy). Your username is shown above the forms: it is first name + last name, for example John Doe would be johndoe.
+3. Go back to login screen (Kirjaudu sisään) from top-left, type your username and press login button.
+4. Choose your degree (Tutkinto) and major (Pääaine) and press the button bottom-left corner. Based on the chosen degree the application might freeze for tens of seconds.
+5. Move to study planning screen from top of the screen (Opintojen suunnittelu)
+6. You will see the degree program. You can traverse the hierarchy to individual courses, which you can mark as done or undone.
+7. 
