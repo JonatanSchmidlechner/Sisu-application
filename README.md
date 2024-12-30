@@ -12,6 +12,7 @@ From Sisu/src/main/java/fi/tuni/prog3/sisu I wrote:
 3. DegreeModule.java
 4. JsonParser.java
 5. StudyModule.java
+
 Additionally I wrote the unit tests for those files.
    
 ## How to run?
@@ -30,4 +31,3 @@ More documentation of the project and how to use the application can be found in
 4. Choose your degree (Tutkinto) and major (Pääaine) and press the button bottom-left corner. Based on the chosen degree the application might freeze for tens of seconds.
 5. Move to study planning screen from top of the screen (Opintojen suunnittelu)
 6. You will see the degree program. You can traverse the hierarchy to individual courses, which you can mark as done or undone.
-7. 
