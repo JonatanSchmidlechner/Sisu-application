@@ -6,12 +6,15 @@
 ###### Even though I created this project during my first study year (note that Programming 3 is a course for 2nd year students), it is the only relatively big project that I can show and I think it demonstrates basic object oriented coding skills and group project work skills.
 
 ## Which files did I write?
+I was responsible for implementing functionality to fetch data from an external API and create class instances (Course, Degree etc.) from the data and finally store them.
+
 From Sisu/src/main/java/fi/tuni/prog3/sisu I wrote:
 1. Assessment.java
 2. Course.java
 3. DegreeModule.java
 4. JsonParser.java
 5. StudyModule.java
+6. iAPI.java
 
 Additionally I wrote the unit tests for those files.
    
