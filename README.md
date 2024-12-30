@@ -2,7 +2,8 @@
 
 ## Overview
 ##### SISU is a study planning application that allows students to plan and track their studies.
-##### The project was part of the university course Programming 3, and it was done in Spring 2023 in a 3 persons project. Even though I created this project during my first study year (note that Programming 3 is a course for 2nd year students), it is the only relatively big project that I can show and I think it demonstrates basic object oriented coding skills and group project work skills.
+##### The project was part of the university course Programming 3, and it was done in Spring 2023 in a 3 persons project.
+###### Even though I created this project during my first study year (note that Programming 3 is a course for 2nd year students), it is the only relatively big project that I can show and I think it demonstrates basic object oriented coding skills and group project work skills.
 
 ## Which files did I write?
 From Sisu/src/main/java/fi/tuni/prog3/sisu I wrote:
